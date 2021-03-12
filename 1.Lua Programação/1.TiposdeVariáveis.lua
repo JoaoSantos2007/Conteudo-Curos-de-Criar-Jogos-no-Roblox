@@ -12,7 +12,7 @@ soma = energia+maisenergia
 print("Nome do Jogador: "..nome)
 print("Energia do Jogador: "..energia.. "; Energia a adicionar: "..maisenergia.."; Energia Atual: "..energia+maisenergia)
 
---VErificar Tipos de Variáveis
+--Verificar Tipos de Variáveis
 print("O tipo da variável energia é: "..type(energia))
 print("O tipo da variável nome é: "..type(nome))
 print("O tipo da variável passoufase é: "..type(passoufase))
@@ -24,3 +24,11 @@ print(energia >= maisenergia)
 print(energia <= maisenergia)
 print(soma)
 print(soma == energia+maisenergia)
+
+--Nil
+name = ""
+print(name)
+print(type(name))
+name = nil
+print(name)
+print(type(name))
